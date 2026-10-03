@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Skills from './sections/Skills';
 import Education from './sections/Education';
+import Projects from './sections/Projects';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Skills />
       <Education />
+      <Projects />
     </div>
   );
 };
