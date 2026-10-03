@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { FaFolder, FaGraduationCap, FaHome, FaTools } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { motion } from 'motion/react';
+import { HiLanguage } from 'react-icons/hi2';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -12,6 +13,7 @@ const Navbar = () => {
     { id: 'skills', icon: FaTools, label: 'Skills' },
     { id: 'education', icon: FaGraduationCap, label: 'Education' },
     { id: 'projects', icon: FaFolder, label: 'Projects' },
+    { id: 'languages', icon: HiLanguage, label: 'Languages' },
     { id: 'contact', icon: FiMail, label: 'Contact' },
   ];
 
