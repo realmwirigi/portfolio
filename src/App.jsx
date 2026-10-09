@@ -5,6 +5,7 @@ import Education from './sections/Education';
 import Projects from './sections/Projects';
 import Languages from './sections/Languages';
 import Contact from './sections/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Projects />
       <Languages />
       <Contact />
+      <Footer />
     </div>
   );
 };
